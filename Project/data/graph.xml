@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<graph >
+	
+	<vertex  name="A" numero="1"/>
+	<vertex  name="B" numero="2"/>
+	<vertex  name="C" numero="3"/>
+	<vertex  name="D" numero="4"/>
+	
+	<link vertex1="A" vertex2="B"/>
+	<link vertex1="A" vertex2="C"/>
+	<link vertex1="C" vertex2="B"/>
+	<link vertex1="D" vertex2="C"/>
+	<link vertex1="B" vertex2="C"/>
+</graph>
